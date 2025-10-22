@@ -1,0 +1,41 @@
+git clone https://github.com/Jamal12321/app-git-self-checking-Jamal12321.git
+cd app-git-self-checking-Jamal12321
+
+git clone https://github.com/Jamal12321/prepare.git
+cd
+
+git checkout calculate-accident-fall-point
+
+
+
+git checkout precise-satellite-orbit
+
+git log --oneline
+
+git checkout -b simple-satellite-orbit abc1234
+
+git add .
+git commit -m "Add basic orbit calculation"
+
+
+git checkout fuel-estimation
+git rm ugly-file
+git commit --amend --no-edit
+
+
+git checkout fall-point-calculation
+git rebase -i HEAD~10
+
+
+
+git checkout flight-time-estimation
+
+git log fix-flight-time --oneline
+git cherry-pick def5678
+
+
+git checkout fix-flight-time
+git revert HEAD HEAD~1 --no-edit
+
+
+git push origin --all
